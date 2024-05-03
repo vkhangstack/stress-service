@@ -51,7 +51,7 @@ func main() {
 	body := []byte(string(envFile["BODY"]))
 	total, _ := strconv.Atoi(envFile["TIMES_REQUEST"])
 	n := 1
-	for n < total {
+	for n < total+1 {
 		data := stress(envFile["METHOD"], envFile["URL"], bytes.NewBuffer(body))
 		fmt.Println("times", n)
 		fmt.Println("data", data)
