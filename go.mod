@@ -14,6 +14,7 @@ require (
 	github.com/labstack/gommon v0.4.2
 	github.com/mailru/easyjson v0.7.7
 	go.uber.org/zap v1.27.0
+	golang.org/x/net v0.24.0
 	golang.org/x/text v0.14.0
 	google.golang.org/protobuf v1.32.0 // indirect
 )
